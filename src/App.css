@@ -1,0 +1,95 @@
+.challenge {}
+
+
+@import url("https://fonts.googleapis.com/css?family=Rubik:700&display=swap");
+
+* {
+  box-sizing: border-box;
+}
+
+
+
+
+
+
+
+body {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin: 0;
+  min-height: 100vh;
+  font-family: 'Rubik', sans-serif;
+  font-size: 1rem;
+  line-height: 1.5;
+  
+  
+}
+
+.challenge-create-person-button {
+  text-align: center;
+  text-transform: uppercase;
+  cursor: pointer;
+  letter-spacing: 4px;
+  position: relative;
+  background-color: dodgerBlue;
+  border: none;
+  color: #fff;
+  padding: 10px;
+  width: 200px;
+  text-align: center;
+  transition-duration: 0.4s;
+  overflow: hidden;
+  border-radius: 4px;
+}
+
+.challenge-persons {
+  margin-top: 10px;
+  
+}
+
+.challenge-person {
+  height: 30px;
+  display: flex;
+  align-items: center;
+}
+
+.challenge-person-id {
+  width: 20px;
+  font-weight: bold;
+  margin-right: 10px;
+  text-align: right;
+}
+
+.challenge-person-name {
+  border:2px solid #aaa;
+    border-radius:4px;
+    margin:8px 0;
+    outline:none;
+    padding:8px;
+    box-sizing:border-box;
+    transition:.3s;
+    margin:5px; 
+}
+
+.challenge-person-name:focus {
+  border-color:dodgerBlue;
+    box-shadow:0 0 8px 0 dodgerBlue;
+}
+
+.challenge-person-save-name-button {
+  text-align: center;
+  text-transform: uppercase;
+  cursor: pointer;
+  letter-spacing: 4px;
+  position: relative;
+  background-color: dodgerBlue;
+  border: none;
+  color: #fff;
+  padding: 10px;
+  width: 200px;
+  text-align: center;
+  transition-duration: 0.4s;
+  overflow: hidden;
+  border-radius: 4px;
+}
